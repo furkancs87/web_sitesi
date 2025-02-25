@@ -18,7 +18,7 @@ import ContactPage from "./pages/Contact/ContactPage.jsx";
 
 
 function App() {
-    //deneme son hali
+    //Güncelleme
     return (
         <Router>
             <div className="App">
