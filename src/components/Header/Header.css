@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.header {
+    background-color: #76959c;
+    padding: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Make the header stick to the bottom */
+    top: 0; /* Align it at the top of the viewport */
+    width: 100%;
+    z-index: 100; /* stays above other content */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", sans-serif;
+}
+
+.header-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.header-item {
+    background-color: white;
+    width: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a shadow for a 3D effect */
+    align-self: center;
+}
+
+.header-item:hover {
+    background-color: #e8e8e8;
+    transform: translateY(5px);
+    transition: all ease 0.3s;
+}
+
+.header-logo {
+    max-height: 40px;
+    width: auto;
+    display: block;
+    margin: 0 auto; /* Center the logo inside the div */
+}
+
+.header-item-header {
+    font-weight: bold;
+    font-size: 1.2em;
+    display: block;
+    color: #333;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "Roboto", sans-serif; /* Ensures header text uses the Roboto font */
+    text-decoration: none;
+}

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* Contact form styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    gap: 15px;
+}
+
+/* Form group styling */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    resize: none; /* Prevents resizing for textarea */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #76959c; /* Highlights the field on focus */
+}
+
+/* Submit button styling */
+.submit-button {
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #76959c;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #5c7a81;
+    transform: translateY(5px);
+    transition: all ease 0.3s;
+}
+
+/* google map için eklenen css kodu */
+.map-section .gmap-frame #gmap_canvas{
+    height: 65vh;
+    width: 100%;
+    border-radius: 5px;
+}
