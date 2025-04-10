@@ -109,6 +109,23 @@ function Home() {
                     ))}
                 </Slider>
             </Box>
+            <br/><br/>
+            {/* Text Content */}
+            <Box textAlign="center" mb={4}>
+                <Typography variant="h5" gutterBottom color="#76959c">
+                        Yenilikçi Çözümlerimiz siz değerli müşterilerimiz için!
+                </Typography>
+            
+                <Typography variant="body1" sx={{ fontSize: "1.2rem" }}>
+                        Mastersoft olarak kuruluşumuzun ana faaliyet alanı makine
+                        öğrenmesi, derin öğrenme ve yapay zeka algoritmalarının
+                        kullanıldığı yazılım ve donanım projeleri geliştirmektir.
+                        Başlıca ürünümüz, internet üzerinden hizmet veren kurumların
+                        sunucu ve uygulamalarına yapılan siber güvenlik ve
+                        performans ile ilgili anormal durumları tespit eden yazılım
+                        olacaktır.
+                </Typography>
+            </Box>
         </Container>
     );
 }

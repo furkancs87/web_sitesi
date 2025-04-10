@@ -25,7 +25,7 @@ function App() {
                 <Header />
                 <main>
                     <Routes>
-                        <Route path="/" element={<Homeslider />} />
+                        <Route path="/" element={<Homeslider/>} />
                         <Route path="/about" element={<About />} />
                         <Route path="/services" element={<Services />} />
                         <Route path="/products" element={<Products />} />
