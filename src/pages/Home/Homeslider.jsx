@@ -7,7 +7,7 @@ import ProImage from "../../images/product.png";
 import ServiceImage from "../../components/Card/s3.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+    //Publish work
     // Image Array
     const images = [
         {
