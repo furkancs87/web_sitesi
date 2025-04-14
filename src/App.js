@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Component import
 import Footer from "./components/Footer/Footer";
+//import Footer from "./components/Footer/FooterLast.jsx";
 import Header from "./components/Header/Header";
 
 // Page import

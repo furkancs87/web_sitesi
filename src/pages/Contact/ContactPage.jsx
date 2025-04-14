@@ -1,6 +1,6 @@
 import React from "react";
-import { TextField, Button, Box } from "@mui/material";
-
+//import { TextField, Button, Box } from "@mui/material";
+import { TextField, Button, Container, Typography, Box, CardMedia } from "@mui/material";
 const ContactPage = () => {
   return (
     //Harita için iframe yapısını kullandık.
@@ -21,7 +21,20 @@ const ContactPage = () => {
 
       {/* Sağ Taraf: İletişim Formu */}
       <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
-        <h2>İletişim Formu</h2>
+          <Box
+                bgcolor="#76959c"
+                p={2}
+                borderRadius={5}
+                //my={1}
+                textAlign="center"
+          >
+
+          <Typography variant="h4"  color="white" gutterBottom={false}>
+                    İletişim Formu
+          </Typography>
+        </Box>
+        <br/>
+       {/* <h2>İletişim Formu</h2> */}
         <Box
           component="form"
           sx={{
